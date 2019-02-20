@@ -23,9 +23,7 @@ function setup() {
 	/////////////////////
 	/// STAGE 1 GOES HERE 
 	/// ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼ ▼
-	for (var i = 0; i < 5; i++) {
-		bubbles[i] = new Bubble(random(50,width-50),random(50,height-50), radius, speed, firstColour);
-	}
+
 	/// ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲
   	//////////////////////
 }

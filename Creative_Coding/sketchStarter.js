@@ -80,8 +80,7 @@ class Bubble {
 		this.y = this.y + (this.ySpeed * this.yDir);
 
 		if(this.x > (width-(this.r)) || this.x < (this.r)){
-			this.xDir = this.xDir * -1;
-			
+			this.xDir = this.xDir * -1;	
 		}
 
 		if(this.y > (height-(this.r)) || this.y < (this.r)){
